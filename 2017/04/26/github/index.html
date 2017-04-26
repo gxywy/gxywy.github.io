@@ -1,0 +1,678 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="1234title: Git简明教程date: 2017-04-01 13:00:33tags: [Github,Git]categories: 技术
+Git简明教程Git与Github分别是什么呢？Git是目前世界上最先进的分布式版本控制系统（没有之一）。
+Windows用户：Git下载地址：点击进入官网下载
+Linux用户：
+1$ sudo apt-get install git
+而Githu">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Microyu's Blog">
+<meta property="og:url" content="https://gxywy.github.io/2017/04/26/github/index.html">
+<meta property="og:site_name" content="Microyu's Blog">
+<meta property="og:description" content="1234title: Git简明教程date: 2017-04-01 13:00:33tags: [Github,Git]categories: 技术
+Git简明教程Git与Github分别是什么呢？Git是目前世界上最先进的分布式版本控制系统（没有之一）。
+Windows用户：Git下载地址：点击进入官网下载
+Linux用户：
+1$ sudo apt-get install git
+而Githu">
+<meta property="og:updated_time" content="2017-04-26T08:14:19.748Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Microyu's Blog">
+<meta name="twitter:description" content="1234title: Git简明教程date: 2017-04-01 13:00:33tags: [Github,Git]categories: 技术
+Git简明教程Git与Github分别是什么呢？Git是目前世界上最先进的分布式版本控制系统（没有之一）。
+Windows用户：Git下载地址：点击进入官网下载
+Linux用户：
+1$ sudo apt-get install git
+而Githu">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"hide"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: undefined,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title>  | Microyu's Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Microyu's Blog</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">一个学生&(伪)技术宅的博客</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-04-26T13:33:53+08:00" content="2017-04-26">
+              2017-04-26
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/04/26/github/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/26/github/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">title: Git简明教程</div><div class="line">date: 2017-04-01 13:00:33</div><div class="line">tags: [Github,Git]</div><div class="line">categories: 技术</div></pre></td></tr></table></figure>
+<h1 id="Git简明教程"><a href="#Git简明教程" class="headerlink" title="Git简明教程"></a>Git简明教程</h1><h2 id="Git与Github分别是什么呢？"><a href="#Git与Github分别是什么呢？" class="headerlink" title="Git与Github分别是什么呢？"></a>Git与Github分别是什么呢？</h2><p>Git是目前世界上最先进的分布式版本控制系统（没有之一）。</p>
+<p>Windows用户：Git下载地址：<a href="https://git-scm.com/" target="_blank" rel="external">点击进入官网下载</a></p>
+<p>Linux用户：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get install git</div></pre></td></tr></table></figure>
+<p>而Github是一个用git做版本控制的项目托管平台。</p>
+<p>Github官网地址：<a href="(https://github.com/">点击进入</a>)</p>
+<h2 id="Git常用命令"><a href="#Git常用命令" class="headerlink" title="Git常用命令"></a>Git常用命令</h2><h3 id="1-创建版本库"><a href="#1-创建版本库" class="headerlink" title="1.创建版本库"></a>1.创建版本库</h3><p>Linux用户：切换到你要创建版本库的目录，输入如下命令</p>
+<p>Windows用户：在你想要创建版本库的地方右键点击<code>Git Bash Here</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git init</div></pre></td></tr></table></figure>
+<p>在输入这个命令之后，你的目录下会就会多出一个名为<code>.git</code>的隐藏文件夹，这个目录是Git来跟踪管理版本库的，没事千万不要手动修改这个目录里面的文件，不然改乱了，就把Git仓库给破坏了。</p>
+<h3 id="2-添加文件到仓库"><a href="#2-添加文件到仓库" class="headerlink" title="2.添加文件到仓库"></a>2.添加文件到仓库</h3><p>将你需要放在版本库的文件，放在版本库的目录下，输入如下命令添加文件（其中filename为文件名）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git add &lt;filename&gt;</div></pre></td></tr></table></figure>
+<p>当然你可以使用通配符<code>*</code>来将目录下的所有文件添加到版本库（除了<code>.gitignore</code>文件规定排除在外的）</p>
+<p>执行上面的命令，没有任何显示，这就对了，Unix的哲学是“没有消息就是好消息”，说明添加成功。</p>
+<h3 id="3-提交文件到仓库"><a href="#3-提交文件到仓库" class="headerlink" title="3.提交文件到仓库"></a>3.提交文件到仓库</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git commit -m &quot;xxx&quot;</div></pre></td></tr></table></figure>
+<p>简单解释一下，<code>-m</code>后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录。</p>
+<p>嫌麻烦不想输入<code>-m &quot;xxx&quot;</code>行不行？确实有办法可以这么干，但是强烈不建议你这么干，因为输入说明对自己对别人阅读都很重要。实在不想输入说明的童鞋请自行Google，我不告诉你这个参数。</p>
+<h3 id="4-其他-日后补充"><a href="#4-其他-日后补充" class="headerlink" title="4.其他(日后补充)"></a>4.其他(日后补充)</h3><p>版本回退、管路修改、撤销修改、删除文件</p>
+<h2 id="连接到Github远程仓库"><a href="#连接到Github远程仓库" class="headerlink" title="连接到Github远程仓库"></a>连接到Github远程仓库</h2><h3 id="1-创建SSH-key"><a href="#1-创建SSH-key" class="headerlink" title="1.创建SSH key"></a>1.创建SSH key</h3><p>创建SSH Key。在用户主目录下，看看有没有<code>.ssh</code>目录，如果有，再看看这个目录下有没有<code>id_rsa</code>和<code>id_rsa.pub</code>这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</div></pre></td></tr></table></figure>
+<p>你需要把邮件地址换成你自己的邮件地址，然后一路回车，使用默认值即可，由于这个Key也不是用于军事目的，所以也无需设置密码。</p>
+<p>如果一切顺利的话，可以在用户主目录里找到<code>.ssh</code>目录，里面有<code>id_rsa</code>和<code>id_rsa.pub</code>两个文件，这两个就是SSH Key的秘钥对，<code>id_rsa</code>是私钥，不能泄露出去，<code>id_rsa.pub</code>是公钥，可以放心地告诉任何人。</p>
+<p>登陆GitHub，打开“Account settings”，“SSH Keys”页面：</p>
+<p>然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴<code>id_rsa.pub</code>文件的内容。</p>
+<p>然后再点“Add Key”，就可以了。</p>
+<h3 id="2-创建Github仓库"><a href="#2-创建Github仓库" class="headerlink" title="2.创建Github仓库"></a>2.创建Github仓库</h3><p>登陆GitHub，然后，在右上角找到“Create a new repo”按钮，创建一个新的Github仓库。</p>
+<p>在Repository name中填入仓库名，其他保持默认设置，点击“Create repository”按钮，就成功地创建了一个新的Github仓库。</p>
+<h3 id="3-将本地仓库与Github仓库关联"><a href="#3-将本地仓库与Github仓库关联" class="headerlink" title="3.将本地仓库与Github仓库关联"></a>3.将本地仓库与Github仓库关联</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git remote add origin git@github.com:yourusername/yourreponame.git</div></pre></td></tr></table></figure>
+<p>将<code>yourusername</code>改为你的Github用户名，<code>yourreponame</code>改为你的Github仓库名，再执行上述命令，这样就将本地仓库与Github仓库关联了起来。</p>
+<p>添加后，远程库的名字就是<code>origin</code>，这是Git默认的叫法，也可以改成别的，但是<code>origin</code>这个名字一看就知道是远程库。</p>
+<h3 id="4-将本地仓库推送到Github仓库"><a href="#4-将本地仓库推送到Github仓库" class="headerlink" title="4.将本地仓库推送到Github仓库"></a>4.将本地仓库推送到Github仓库</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git push -u origin master</div></pre></td></tr></table></figure>
+<p>由于远程库是空的，我们第一次推送<code>master</code>分支时，加上了<code>-u</code>参数，Git不但会把本地的<code>master</code>分支内容推送的远程新的<code>master</code>分支，还会把本地的<code>master</code>分支和远程的<code>master</code>分支关联起来，在以后的推送或者拉取时就可以简化命令。</p>
+<p>推送成功后，可以立刻在GitHub页面中看到远程库的内容已经和本地一模一样：</p>
+<h2 id="常见错误-不断更新"><a href="#常见错误-不断更新" class="headerlink" title="常见错误(不断更新)"></a>常见错误(不断更新)</h2><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>[1]<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的Git教程</a></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/08/01/make-blog/" rel="next" title="使用Github和Hexo搭建自己的博客">
+                <i class="fa fa-chevron-left"></i> 使用Github和Hexo搭建自己的博客
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/04/26/github/"
+           data-title="" data-url="https://gxywy.github.io/2017/04/26/github/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.png"
+               alt="Microyu" />
+          <p class="site-author-name" itemprop="name">Microyu</p>
+          <p class="site-description motion-element" itemprop="description">Ideas Worth Spreading.</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/gxywy" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.zhihu.com/people/microyu" target="_blank" title="知乎">
+                  
+                    <i class="fa fa-fw fa-user"></i>
+                  
+                  知乎
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://user.qzone.qq.com/985814587/main" target="_blank" title="QQ">
+                  
+                    <i class="fa fa-fw fa-qq"></i>
+                  
+                  QQ
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Git简明教程"><span class="nav-number">1.</span> <span class="nav-text">Git简明教程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Git与Github分别是什么呢？"><span class="nav-number">1.1.</span> <span class="nav-text">Git与Github分别是什么呢？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git常用命令"><span class="nav-number">1.2.</span> <span class="nav-text">Git常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-创建版本库"><span class="nav-number">1.2.1.</span> <span class="nav-text">1.创建版本库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-添加文件到仓库"><span class="nav-number">1.2.2.</span> <span class="nav-text">2.添加文件到仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-提交文件到仓库"><span class="nav-number">1.2.3.</span> <span class="nav-text">3.提交文件到仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-其他-日后补充"><span class="nav-number">1.2.4.</span> <span class="nav-text">4.其他(日后补充)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#连接到Github远程仓库"><span class="nav-number">1.3.</span> <span class="nav-text">连接到Github远程仓库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-创建SSH-key"><span class="nav-number">1.3.1.</span> <span class="nav-text">1.创建SSH key</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-创建Github仓库"><span class="nav-number">1.3.2.</span> <span class="nav-text">2.创建Github仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-将本地仓库与Github仓库关联"><span class="nav-number">1.3.3.</span> <span class="nav-text">3.将本地仓库与Github仓库关联</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-将本地仓库推送到Github仓库"><span class="nav-number">1.3.4.</span> <span class="nav-text">4.将本地仓库推送到Github仓库</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常见错误-不断更新"><span class="nav-number">1.4.</span> <span class="nav-text">常见错误(不断更新)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考资料"><span class="nav-number">1.5.</span> <span class="nav-text">参考资料</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2016 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Microyu</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"microyu"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+      
+      <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+      <script src="/js/src/hook-duoshuo.js"></script>
+    
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>
