@@ -97,7 +97,7 @@ Linux用户：
 而Github是一个用git做版本控制的项目托管平台。
 Github官网地址：点击进入)">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Git简明教程(未完待续)">
+<meta property="og:title" content="Git简明教程">
 <meta property="og:url" content="https://gxywy.github.io/2017/04/26/github/index.html">
 <meta property="og:site_name" content="Microyu's Blog">
 <meta property="og:description" content="Git简明教程Git与Github分别是什么呢？Git是目前世界上最先进的分布式版本控制系统（没有之一）。
@@ -106,9 +106,9 @@ Linux用户：
 1$ sudo apt-get install git
 而Github是一个用git做版本控制的项目托管平台。
 Github官网地址：点击进入)">
-<meta property="og:updated_time" content="2017-04-26T13:25:55.899Z">
+<meta property="og:updated_time" content="2017-04-28T15:28:30.390Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Git简明教程(未完待续)">
+<meta name="twitter:title" content="Git简明教程">
 <meta name="twitter:description" content="Git简明教程Git与Github分别是什么呢？Git是目前世界上最先进的分布式版本控制系统（没有之一）。
 Windows用户：Git下载地址：点击进入官网下载
 Linux用户：
@@ -148,7 +148,7 @@ Github官网地址：点击进入)">
 
 
 
-  <title>Git简明教程(未完待续) | Microyu's Blog</title>
+  <title>Git简明教程 | Microyu's Blog</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -314,7 +314,7 @@ Github官网地址：点击进入)">
             
             
               
-                Git简明教程(未完待续)
+                Git简明教程
               
             
           </h1>
@@ -365,18 +365,6 @@ Github官网地址：点击进入)">
 
           
             
-            <!--noindex-->
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/04/26/github/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count hc-comment-count" data-xid="2017/04/26/github/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-              <!--/noindex-->
-            
           
 
           
@@ -399,8 +387,8 @@ Github官网地址：点击进入)">
 
       
         <h1 id="Git简明教程"><a href="#Git简明教程" class="headerlink" title="Git简明教程"></a>Git简明教程</h1><h2 id="Git与Github分别是什么呢？"><a href="#Git与Github分别是什么呢？" class="headerlink" title="Git与Github分别是什么呢？"></a>Git与Github分别是什么呢？</h2><p>Git是目前世界上最先进的分布式版本控制系统（没有之一）。</p>
-<p>Windows用户：Git下载地址：<a href="https://git-scm.com/" target="_blank" rel="external">点击进入官网下载</a></p>
-<p>Linux用户：</p>
+<p><strong>Windows用户：</strong>Git下载地址：<a href="https://git-scm.com/" target="_blank" rel="external">点击进入官网下载</a></p>
+<p><strong>Linux用户：</strong></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get install git</div></pre></td></tr></table></figure>
 <p>而Github是一个用git做版本控制的项目托管平台。</p>
 <p>Github官网地址：<a href="(https://github.com/">点击进入</a>)</p>
@@ -421,11 +409,11 @@ Github官网地址：点击进入)">
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</div></pre></td></tr></table></figure>
 <p>你需要把邮件地址换成你自己的邮件地址，然后一路回车，使用默认值即可，由于这个Key也不是用于军事目的，所以也无需设置密码。</p>
 <p>如果一切顺利的话，可以在用户主目录里找到<code>.ssh</code>目录，里面有<code>id_rsa</code>和<code>id_rsa.pub</code>两个文件，这两个就是SSH Key的秘钥对，<code>id_rsa</code>是私钥，不能泄露出去，<code>id_rsa.pub</code>是公钥，可以放心地告诉任何人。</p>
-<p>登陆GitHub，打开“Account settings”，“SSH Keys”页面：</p>
-<p>然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴<code>id_rsa.pub</code>文件的内容。</p>
-<p>然后再点“Add Key”，就可以了。</p>
-<h3 id="2-创建Github仓库"><a href="#2-创建Github仓库" class="headerlink" title="2.创建Github仓库"></a>2.创建Github仓库</h3><p>登陆GitHub，然后，在右上角找到“Create a new repo”按钮，创建一个新的Github仓库。</p>
-<p>在Repository name中填入仓库名，其他保持默认设置，点击“Create repository”按钮，就成功地创建了一个新的Github仓库。</p>
+<p>登陆GitHub，点击头像下拉菜单里的<code>Settings</code>，在打开的页面里点击<code>SSH and GPG keys</code></p>
+<p>最后，点<code>New SSH key</code>，填上任意Title，在Key文本框里粘贴<code>id_rsa.pub</code>文件的内容。</p>
+<p>然后再点<code>Add SSH key</code>，就可以了。</p>
+<h3 id="2-创建Github仓库"><a href="#2-创建Github仓库" class="headerlink" title="2.创建Github仓库"></a>2.创建Github仓库</h3><p>登陆GitHub，然后，在右上角找到<code>Create a new repo</code>按钮，创建一个新的Github仓库。</p>
+<p>在Repository name中填入仓库名，其他保持默认设置，点击<code>Create repository</code>按钮，就成功地创建了一个新的Github仓库。</p>
 <h3 id="3-将本地仓库与Github仓库关联"><a href="#3-将本地仓库与Github仓库关联" class="headerlink" title="3.将本地仓库与Github仓库关联"></a>3.将本地仓库与Github仓库关联</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git remote add origin git@github.com:yourusername/yourreponame.git</div></pre></td></tr></table></figure>
 <p>将<code>yourusername</code>改为你的Github用户名，<code>yourreponame</code>改为你的Github仓库名，再执行上述命令，这样就将本地仓库与Github仓库关联了起来。</p>
 <p>添加后，远程库的名字就是<code>origin</code>，这是Git默认的叫法，也可以改成别的，但是<code>origin</code>这个名字一看就知道是远程库。</p>
@@ -532,7 +520,12 @@ Github官网地址：点击进入)">
           
   <div class="comments" id="comments">
     
-      <div id="hypercomments_widget"></div>
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
     
   </div>
 
@@ -767,36 +760,40 @@ Github官网地址：点击进入)">
 
   
 
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://gxywy.github.io/2017/04/26/github/';
+          this.page.identifier = '2017/04/26/github/';
+          this.page.title = 'Git简明教程';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://microyu.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
 
 
 
-	
-
-		<script type="text/javascript">
-		_hcwp = window._hcwp || [];
-
-		_hcwp.push({widget:"Bloggerstream", widget_id: 90265, selector:".hc-comment-count", label: "{\%COUNT%\}" });
-
-		
-		_hcwp.push({widget:"Stream", widget_id: 90265, xid: "2017/04/26/github/"});
-		
-
-		(function() {
-		if("HC_LOAD_INIT" in window)return;
-		HC_LOAD_INIT = true;
-		var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
-		var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-		hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/90265/"+lang+"/widget.js";
-		var s = document.getElementsByTagName("script")[0];
-		s.parentNode.insertBefore(hcc, s.nextSibling);
-		})();
-		</script>
 
 	
 
 
 
 
+
+  
+
+
+
+
+
+  
 
 
 
